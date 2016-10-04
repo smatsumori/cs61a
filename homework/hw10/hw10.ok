@@ -1,0 +1,30 @@
+{
+    "name": "Homework 10",
+    "endpoint": "cal/cs61a/su16/hw10",
+    "src": [
+        "hw10.py"
+    ],
+    "tests": {
+        "hw10.py": "doctest"
+    },
+    "default_tests": [
+        "permutations",
+        "nearest_two",
+        "smooth",
+        "n_fold_smooth",
+        "make_advanced_counter_maker",
+        "deck",
+        "riffle",
+        "reaches_circularity",
+        "intersection"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "autostyle",
+        "backup"
+    ]
+}

@@ -1,0 +1,1720 @@
+{
+  "checksum": "b2894ae21171c2efe0bd680418ae92bc",
+  "db": {
+    "dictAssessId2Info": {
+      "scm> '(2 . (3))\nLOCKED_ANSWER\n": {
+        "assessNum": "5",
+        "dictWA2DictInfo": {
+          "['(2 (3))']": {
+            "dictTag2ConceptMsg": {
+              "scmlstreductionmisapplied-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstreductionmisapplied": "16"
+            },
+            "lstMisU": [
+              "scmlstreductionmisapplied",
+              "scmlstreductionmisapplied-schemelistformat"
+            ]
+          },
+          "['(2 . (3))']": {
+            "dictTag2ConceptMsg": {
+              "scmlstdispnotfullyreduced-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstdispnotfullyreduced": "16"
+            },
+            "lstMisU": [
+              "scmlstdispnotfullyreduced",
+              "scmlstdispnotfullyreduced-schemelistformat"
+            ]
+          },
+          "['(2 . 3)']": {
+            "dictTag2ConceptMsg": {
+              "scmlstreductionmisapplied-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstreductionmisapplied": "16"
+            },
+            "lstMisU": [
+              "scmlstreductionmisapplied",
+              "scmlstreductionmisapplied-schemelistformat"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> '(2 . 3)\nLOCKED_ANSWER\n": {
+        "assessNum": "4",
+        "dictWA2DictInfo": {
+          "['(2 3)']": {
+            "dictTag2ConceptMsg": {
+              "scmquotedlstrtnnotorglst-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmquotedlstrtnnotorglst": "21"
+            },
+            "lstMisU": [
+              "scmquotedlstrtnnotorglst",
+              "scmquotedlstrtnnotorglst-schemequotedlist"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (cdr (cons 1 (cons 2 nil)))\nLOCKED_ANSWER\n": {
+        "assessNum": "2",
+        "dictWA2DictInfo": {
+          "['(2 nil)']": {
+            "dictTag2ConceptMsg": {
+              "scmdispnilinlst-schemeempty": "8",
+              "scmdispnilinlst-schemelistformat": "10",
+              "scmnilnotlst-schemeempty": "8"
+            },
+            "dictTag2KIMsg": {
+              "scmdispnilinlst": "18",
+              "scmnilnotlst": "18"
+            },
+            "lstMisU": [
+              "scmdispnilinlst",
+              "scmdispnilinlst-schemeempty",
+              "scmdispnilinlst-schemelistformat",
+              "scmnilnotlst",
+              "scmnilnotlst-schemeempty"
+            ]
+          },
+          "['2']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "17"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr"
+            ]
+          },
+          "['nil']": {
+            "dictTag2ConceptMsg": {
+              "scmnilnotlst-schemeempty": "8"
+            },
+            "dictTag2KIMsg": {
+              "scmnilnotlst": "18"
+            },
+            "lstMisU": [
+              "scmnilnotlst",
+              "scmnilnotlst-schemeempty"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {
+          "['(2 . nil)']": [
+            [
+              "2",
+              "['(2 nil)']"
+            ]
+          ],
+          "['(2 nil)']": [
+            [
+              "2",
+              "['(2 . nil)']"
+            ]
+          ]
+        }
+      },
+      "scm> (cons 1 '(list 2 3))\nLOCKED_ANSWER\n": {
+        "assessNum": "9",
+        "dictWA2DictInfo": {
+          "['(1 ((2 3)))']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesnestedlst-schemecons": "6",
+              "scmquotedcodeiseval-schemequotedlist": "11",
+              "scmquotedlstrtnnotorglst-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesnestedlst": "13",
+              "scmquotedcodeiseval": "22",
+              "scmquotedlstrtnnotorglst": "21"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesnestedlst",
+              "scmconswithlstmakesnestedlst-schemecons",
+              "scmquotedcodeiseval",
+              "scmquotedcodeiseval-schemequotedlist",
+              "scmquotedlstrtnnotorglst",
+              "scmquotedlstrtnnotorglst-schemequotedlist"
+            ]
+          },
+          "['(1 (2 . 3))']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesnestedlst-schemecons": "6",
+              "scmquotedcodeiseval-schemequotedlist": "11",
+              "scmquotedlstrtnnotorglst-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesnestedlst": "13",
+              "scmquotedcodeiseval": "22",
+              "scmquotedlstrtnnotorglst": "21"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesnestedlst",
+              "scmconswithlstmakesnestedlst-schemecons",
+              "scmquotedcodeiseval",
+              "scmquotedcodeiseval-schemequotedlist",
+              "scmquotedlstrtnnotorglst",
+              "scmquotedlstrtnnotorglst-schemequotedlist"
+            ]
+          },
+          "['(1 (2 3))']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesnestedlst-schemecons": "6",
+              "scmquotedcodeiseval-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesnestedlst": "13",
+              "scmquotedcodeiseval": "22"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesnestedlst",
+              "scmconswithlstmakesnestedlst-schemecons",
+              "scmquotedcodeiseval",
+              "scmquotedcodeiseval-schemequotedlist"
+            ]
+          },
+          "['(1 (list 2 3))']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesnestedlst-schemecons": "6"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesnestedlst": "13"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesnestedlst",
+              "scmconswithlstmakesnestedlst-schemecons"
+            ]
+          },
+          "['(1 . ((2 3)))']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesnestedlst-schemecons": "6",
+              "scmlstdispnotfullyreduced-schemelistformat": "10",
+              "scmquotedcodeiseval-schemequotedlist": "11",
+              "scmquotedlstrtnnotorglst-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesnestedlst": "13",
+              "scmlstdispnotfullyreduced": "16",
+              "scmquotedcodeiseval": "22",
+              "scmquotedlstrtnnotorglst": "21"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesnestedlst",
+              "scmconswithlstmakesnestedlst-schemecons",
+              "scmlstdispnotfullyreduced",
+              "scmlstdispnotfullyreduced-schemelistformat",
+              "scmquotedcodeiseval",
+              "scmquotedcodeiseval-schemequotedlist",
+              "scmquotedlstrtnnotorglst",
+              "scmquotedlstrtnnotorglst-schemequotedlist"
+            ]
+          },
+          "['(1 . (2 . 3))']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesmallst-schemecons": "6",
+              "scmlstdispnotfullyreduced-schemelistformat": "10",
+              "scmquotedlstrtnnotorglst-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesmallst": "13",
+              "scmlstdispnotfullyreduced": "16",
+              "scmquotedlstrtnnotorglst": "21"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesmallst",
+              "scmconswithlstmakesmallst-schemecons",
+              "scmlstdispnotfullyreduced",
+              "scmlstdispnotfullyreduced-schemelistformat",
+              "scmquotedlstrtnnotorglst",
+              "scmquotedlstrtnnotorglst-schemequotedlist"
+            ]
+          },
+          "['(1 . (2 3))']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesmallst-schemecons": "6",
+              "scmlstdispnotfullyreduced-schemelistformat": "10",
+              "scmquotedcodeiseval-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesmallst": "13",
+              "scmlstdispnotfullyreduced": "16",
+              "scmquotedcodeiseval": "22"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesmallst",
+              "scmconswithlstmakesmallst-schemecons",
+              "scmlstdispnotfullyreduced",
+              "scmlstdispnotfullyreduced-schemelistformat",
+              "scmquotedcodeiseval",
+              "scmquotedcodeiseval-schemequotedlist"
+            ]
+          },
+          "['(1 . (list 2 3))']": {
+            "dictTag2ConceptMsg": {
+              "scmlstdispnotfullyreduced-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstdispnotfullyreduced": "16"
+            },
+            "lstMisU": [
+              "scmlstdispnotfullyreduced",
+              "scmlstdispnotfullyreduced-schemelistformat"
+            ]
+          },
+          "['(1 . 2 . 3)']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesmallst-schemecons": "6",
+              "scmquotedcodeiseval-schemequotedlist": "11",
+              "scmquotedlstrtnnotorglst-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesmallst": "13",
+              "scmquotedcodeiseval": "22",
+              "scmquotedlstrtnnotorglst": "21"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesmallst",
+              "scmconswithlstmakesmallst-schemecons",
+              "scmquotedcodeiseval",
+              "scmquotedcodeiseval-schemequotedlist",
+              "scmquotedlstrtnnotorglst",
+              "scmquotedlstrtnnotorglst-schemequotedlist"
+            ]
+          },
+          "['(1 . 2 3)']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesmallst-schemecons": "6",
+              "scmquotedcodeiseval-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesmallst": "13",
+              "scmquotedcodeiseval": "22"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesmallst",
+              "scmconswithlstmakesmallst-schemecons",
+              "scmquotedcodeiseval",
+              "scmquotedcodeiseval-schemequotedlist"
+            ]
+          },
+          "['(1 2 . 3)']": {
+            "dictTag2ConceptMsg": {
+              "scmlistfnmakesmallst-schemelistfunction": "9",
+              "scmquotedcodeiseval-schemequotedlist": "11",
+              "scmquotedlstrtnnotorglst-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmlistfnmakesmallst": "20",
+              "scmquotedcodeiseval": "22",
+              "scmquotedlstrtnnotorglst": "21"
+            },
+            "lstMisU": [
+              "scmlistfnmakesmallst",
+              "scmlistfnmakesmallst-schemelistfunction",
+              "scmquotedcodeiseval",
+              "scmquotedcodeiseval-schemequotedlist",
+              "scmquotedlstrtnnotorglst",
+              "scmquotedlstrtnnotorglst-schemequotedlist"
+            ]
+          },
+          "['(1 2 3)']": {
+            "dictTag2ConceptMsg": {
+              "scmquotedcodeiseval-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmquotedcodeiseval": "22"
+            },
+            "lstMisU": [
+              "scmquotedcodeiseval",
+              "scmquotedcodeiseval-schemequotedlist"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (cons 1 (cons 2 nil))\nLOCKED_ANSWER\n": {
+        "assessNum": "1",
+        "dictWA2DictInfo": {
+          "['(1 . (2))']": {
+            "dictTag2ConceptMsg": {
+              "scmlstdispnotfullyreduced-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstdispnotfullyreduced": "16"
+            },
+            "lstMisU": [
+              "scmlstdispnotfullyreduced",
+              "scmlstdispnotfullyreduced-schemelistformat"
+            ]
+          },
+          "['(1 . 2)']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesmallst-schemecons": "6"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesmallst": "13"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesmallst",
+              "scmconswithlstmakesmallst-schemecons"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {
+          "['(1 . (2 . nil))']": [
+            [
+              "1",
+              "['(1 . (2))']"
+            ]
+          ],
+          "['(1 . (2))']": [
+            [
+              "1",
+              "['(1 . (2 . nil))']"
+            ]
+          ]
+        }
+      },
+      "scm> (cons 1 2)\nLOCKED_ANSWER\n": {
+        "assessNum": "0",
+        "dictWA2DictInfo": {
+          "['(1 2)']": {
+            "dictTag2ConceptMsg": {
+              "scmconsrtnlstwhenshouldbemallst-schemecons": "6",
+              "scmconsrtnlstwhenshouldbemallst-schememalformedlist": "5"
+            },
+            "dictTag2KIMsg": {
+              "scmconsrtnlstwhenshouldbemallst": "13"
+            },
+            "lstMisU": [
+              "scmconsrtnlstwhenshouldbemallst",
+              "scmconsrtnlstwhenshouldbemallst-schemecons",
+              "scmconsrtnlstwhenshouldbemallst-schememalformedlist"
+            ]
+          },
+          "['(1. 2)']": {
+            "dictTag2ConceptMsg": {
+              "sloppyscmlstdisp-schemelistformat": "10",
+              "sloppyscmlstdisp-sloppy": "0"
+            },
+            "dictTag2KIMsg": {
+              "sloppyscmlstdisp": "16"
+            },
+            "lstMisU": [
+              "sloppyscmlstdisp",
+              "sloppyscmlstdisp-schemelistformat",
+              "sloppyscmlstdisp-sloppy"
+            ]
+          },
+          "['(1.2)']": {
+            "dictTag2ConceptMsg": {
+              "scmmallstdsntneedspaces-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmmallstdsntneedspaces": "14"
+            },
+            "lstMisU": [
+              "scmmallstdsntneedspaces",
+              "scmmallstdsntneedspaces-schemelistformat"
+            ]
+          },
+          "['1 2']": {
+            "dictTag2ConceptMsg": {
+              "scmlstdsntneedouterparen-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstdsntneedouterparen": "15"
+            },
+            "lstMisU": [
+              "scmlstdsntneedouterparen",
+              "scmlstdsntneedouterparen-schemelistformat"
+            ]
+          },
+          "['1.2']": {
+            "dictTag2ConceptMsg": {
+              "scmlstdsntneedouterparen-schemelistformat": "10",
+              "scmmallstdsntneedspaces-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstdsntneedouterparen": "15",
+              "scmmallstdsntneedspaces": "14"
+            },
+            "lstMisU": [
+              "scmlstdsntneedouterparen",
+              "scmlstdsntneedouterparen-schemelistformat",
+              "scmmallstdsntneedspaces",
+              "scmmallstdsntneedspaces-schemelistformat"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (define a '(1))\nLOCKED_ANSWER\nscm> a\nLOCKED_ANSWER\nscm> (define b (cons 2 a))\nLOCKED_ANSWER\nscm> b\nLOCKED_ANSWER\nscm> (define c (list 3 b))\nLOCKED_ANSWER\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n": {
+        "assessNum": "10",
+        "dictWA2DictInfo": {
+          "[\"'(1)\"]": {
+            "dictTag2ConceptMsg": {
+              "scmdefrtnnotname-schemedefine": "7"
+            },
+            "dictTag2KIMsg": {
+              "scmdefrtnnotname": "23"
+            },
+            "lstMisU": [
+              "scmdefrtnnotname",
+              "scmdefrtnnotname-schemedefine"
+            ]
+          },
+          "['(1)']": {
+            "dictTag2ConceptMsg": {
+              "scmdefrtnnotname-schemedefine": "7"
+            },
+            "dictTag2KIMsg": {
+              "scmdefrtnnotname": "23"
+            },
+            "lstMisU": [
+              "scmdefrtnnotname",
+              "scmdefrtnnotname-schemedefine"
+            ]
+          },
+          "['1']": {
+            "dictTag2ConceptMsg": {
+              "scmdefrtnnotname-schemedefine": "7"
+            },
+            "dictTag2KIMsg": {
+              "scmdefrtnnotname": "23"
+            },
+            "lstMisU": [
+              "scmdefrtnnotname",
+              "scmdefrtnnotname-schemedefine"
+            ]
+          },
+          "['None']": {
+            "dictTag2ConceptMsg": {
+              "scmdefrtnnotname-schemedefine": "7"
+            },
+            "dictTag2KIMsg": {
+              "scmdefrtnnotname": "23"
+            },
+            "lstMisU": [
+              "scmdefrtnnotname",
+              "scmdefrtnnotname-schemedefine"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nLOCKED_ANSWER\nscm> b\nLOCKED_ANSWER\nscm> (define c (list 3 b))\nLOCKED_ANSWER\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n": {
+        "assessNum": "12",
+        "dictWA2DictInfo": {
+          "['(2 . 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmdefrtnnotname-schemedefine": "7"
+            },
+            "dictTag2KIMsg": {
+              "scmdefrtnnotname": "23"
+            },
+            "lstMisU": [
+              "scmdefrtnnotname",
+              "scmdefrtnnotname-schemedefine"
+            ]
+          },
+          "['(2 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmdefrtnnotname-schemedefine": "7"
+            },
+            "dictTag2KIMsg": {
+              "scmdefrtnnotname": "23"
+            },
+            "lstMisU": [
+              "scmdefrtnnotname",
+              "scmdefrtnnotname-schemedefine"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {
+          "['(2 (1))']": [
+            [
+              "12",
+              "['(2 . 1)']"
+            ],
+            [
+              "12",
+              "['(2 1)']"
+            ]
+          ],
+          "['(2 . (1))']": [
+            [
+              "12",
+              "['(2 . 1)']"
+            ],
+            [
+              "12",
+              "['(2 1)']"
+            ]
+          ],
+          "['(2 . 1)']": [
+            [
+              "12",
+              "['(2 (1))']"
+            ],
+            [
+              "12",
+              "['(2 . (1))']"
+            ],
+            [
+              "12",
+              "['(2 . a)']"
+            ]
+          ],
+          "['(2 . a)']": [
+            [
+              "12",
+              "['(2 . 1)']"
+            ]
+          ],
+          "['(2 1)']": [
+            [
+              "12",
+              "['(2 (1))']"
+            ],
+            [
+              "12",
+              "['(2 . (1))']"
+            ]
+          ]
+        }
+      },
+      "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nLOCKED_ANSWER\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n": {
+        "assessNum": "14",
+        "dictWA2DictInfo": {
+          "['(3 (2 1))']": {
+            "dictTag2ConceptMsg": {
+              "scmdefrtnnotname-schemedefine": "7"
+            },
+            "dictTag2KIMsg": {
+              "scmdefrtnnotname": "23"
+            },
+            "lstMisU": [
+              "scmdefrtnnotname",
+              "scmdefrtnnotname-schemedefine"
+            ]
+          },
+          "['(3 2 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmdefrtnnotname-schemedefine": "7"
+            },
+            "dictTag2KIMsg": {
+              "scmdefrtnnotname": "23"
+            },
+            "lstMisU": [
+              "scmdefrtnnotname",
+              "scmdefrtnnotname-schemedefine"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nc\nscm> c\n(3 (2 1))\nscm> (car c)\n3\nscm> (cdr c)\n((2 1))\nscm> (car (car (cdr c)))\n2\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n": {
+        "assessNum": "19",
+        "dictWA2DictInfo": {
+          "['(2 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstsubset-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstsubset": "29"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstsubset",
+              "scmcdrrtnlstsubset-schemecdr"
+            ]
+          },
+          "['(2)']": {
+            "dictTag2ConceptMsg": {
+              "scmlstindexoffbyone-sloppy": "0",
+              "scmswapcarcdr-schemecar": "12",
+              "scmswapcarcdr-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmlstindexoffbyone": "32",
+              "scmswapcarcdr": "28"
+            },
+            "lstMisU": [
+              "scmlstindexoffbyone",
+              "scmlstindexoffbyone-sloppy",
+              "scmswapcarcdr",
+              "scmswapcarcdr-schemecar",
+              "scmswapcarcdr-schemecdr"
+            ]
+          },
+          "['1']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4",
+              "scmlstdsntneedouterparen-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "17",
+              "scmlstdsntneedouterparen": "15"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr",
+              "scmlstdsntneedouterparen",
+              "scmlstdsntneedouterparen-schemelistformat"
+            ]
+          },
+          "['2']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4",
+              "scmlstindexoffbyone-sloppy": "0",
+              "scmswapcarcdr-schemecar": "12",
+              "scmswapcarcdr-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "17",
+              "scmlstindexoffbyone": "32",
+              "scmswapcarcdr": "28"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr",
+              "scmlstindexoffbyone",
+              "scmlstindexoffbyone-sloppy",
+              "scmswapcarcdr",
+              "scmswapcarcdr-schemecar",
+              "scmswapcarcdr-schemecdr"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {
+          "['((2 1))']": [
+            [
+              "19",
+              "['(2 1)']"
+            ]
+          ],
+          "['(2 1)']": [
+            [
+              "19",
+              "['((2 1))']"
+            ]
+          ]
+        }
+      },
+      "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nc\nscm> c\n(3 (2 1))\nscm> (car c)\n3\nscm> (cdr c)\n((2 1))\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n": {
+        "assessNum": "18",
+        "dictWA2DictInfo": {
+          "['((1))']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4",
+              "scmconswithlstmakesnestedlst-schemecons": "6",
+              "scmlstindexoffbyone-sloppy": "0",
+              "scmswapcarcdr-schemecar": "12",
+              "scmswapcarcdr-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "29",
+              "scmconswithlstmakesnestedlst": "13",
+              "scmlstindexoffbyone": "32",
+              "scmswapcarcdr": "28"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr",
+              "scmconswithlstmakesnestedlst",
+              "scmconswithlstmakesnestedlst-schemecons",
+              "scmlstindexoffbyone",
+              "scmlstindexoffbyone-sloppy",
+              "scmswapcarcdr",
+              "scmswapcarcdr-schemecar",
+              "scmswapcarcdr-schemecdr"
+            ]
+          },
+          "['(1)']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4",
+              "scmlstindexoffbyone-sloppy": "0",
+              "scmswapcarcdr-schemecar": "12",
+              "scmswapcarcdr-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "29",
+              "scmlstindexoffbyone": "32",
+              "scmswapcarcdr": "28"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr",
+              "scmlstindexoffbyone",
+              "scmlstindexoffbyone-sloppy",
+              "scmswapcarcdr",
+              "scmswapcarcdr-schemecar",
+              "scmswapcarcdr-schemecdr"
+            ]
+          },
+          "['1']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4",
+              "scmlstdsntneedouterparen-schemelistformat": "10",
+              "scmlstindexoffbyone-sloppy": "0",
+              "scmswapcarcdr-schemecar": "12",
+              "scmswapcarcdr-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "17",
+              "scmlstdsntneedouterparen": "15",
+              "scmlstindexoffbyone": "32",
+              "scmswapcarcdr": "28"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr",
+              "scmlstdsntneedouterparen",
+              "scmlstdsntneedouterparen-schemelistformat",
+              "scmlstindexoffbyone",
+              "scmlstindexoffbyone-sloppy",
+              "scmswapcarcdr",
+              "scmswapcarcdr-schemecar",
+              "scmswapcarcdr-schemecdr"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nc\nscm> c\n(3 (2 1))\nscm> (car c)\n3\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n": {
+        "assessNum": "17",
+        "dictWA2DictInfo": {
+          "[\"'(2 1)\"]": {
+            "dictTag2ConceptMsg": {
+              "scmlstrtnascode-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstrtnascode": "31"
+            },
+            "lstMisU": [
+              "scmlstrtnascode",
+              "scmlstrtnascode-schemelistformat"
+            ]
+          },
+          "['(1)']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstsubset-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstsubset": "29"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstsubset",
+              "scmcdrrtnlstsubset-schemecdr"
+            ]
+          },
+          "['(2 (1))']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstsubset-schemecdr": "4",
+              "scmconswithlstmakesnestedlst-schemecons": "6"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstsubset": "29",
+              "scmconswithlstmakesnestedlst": "13"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstsubset",
+              "scmcdrrtnlstsubset-schemecdr",
+              "scmconswithlstmakesnestedlst",
+              "scmconswithlstmakesnestedlst-schemecons"
+            ]
+          },
+          "['(2 . 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4",
+              "scmconswithlstmakesmallst-schemecons": "6"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "29",
+              "scmconswithlstmakesmallst": "13"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr",
+              "scmconswithlstmakesmallst",
+              "scmconswithlstmakesmallst-schemecons"
+            ]
+          },
+          "['(2 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4",
+              "scmsingleitemnestedlstislst-schemelistfunction": "9"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "29",
+              "scmsingleitemnestedlstislst": "30"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr",
+              "scmsingleitemnestedlstislst",
+              "scmsingleitemnestedlstislst-schemelistfunction"
+            ]
+          },
+          "['(2)']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstsubset-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstsubset": "29"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstsubset",
+              "scmcdrrtnlstsubset-schemecdr"
+            ]
+          },
+          "['(b)']": {
+            "dictTag2ConceptMsg": {
+              "scmbindvartovarname-schemedefine": "7",
+              "scmbindvartovarname-schemeevalvar": "3"
+            },
+            "dictTag2KIMsg": {
+              "scmbindvartovarname": "25"
+            },
+            "lstMisU": [
+              "scmbindvartovarname",
+              "scmbindvartovarname-schemedefine",
+              "scmbindvartovarname-schemeevalvar"
+            ]
+          },
+          "['(list 2 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmlstrtnascode-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstrtnascode": "31"
+            },
+            "lstMisU": [
+              "scmlstrtnascode",
+              "scmlstrtnascode-schemelistformat"
+            ]
+          },
+          "['1']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "17"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr"
+            ]
+          },
+          "['2 . 1']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4",
+              "scmconswithlstmakesmallst-schemecons": "6",
+              "scmlstdsntneedouterparen-schemelistformat": "10",
+              "scmsingleitemnestedlstislst-schemelistfunction": "9"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "17",
+              "scmconswithlstmakesmallst": "13",
+              "scmlstdsntneedouterparen": "15",
+              "scmsingleitemnestedlstislst": "30"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr",
+              "scmconswithlstmakesmallst",
+              "scmconswithlstmakesmallst-schemecons",
+              "scmlstdsntneedouterparen",
+              "scmlstdsntneedouterparen-schemelistformat",
+              "scmsingleitemnestedlstislst",
+              "scmsingleitemnestedlstislst-schemelistfunction"
+            ]
+          },
+          "['2 1']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4",
+              "scmlstdsntneedouterparen-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "17",
+              "scmlstdsntneedouterparen": "15"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr",
+              "scmlstdsntneedouterparen",
+              "scmlstdsntneedouterparen-schemelistformat"
+            ]
+          },
+          "['2']": {
+            "dictTag2ConceptMsg": {
+              "scmcdrrtnlstelem-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmcdrrtnlstelem": "17"
+            },
+            "lstMisU": [
+              "scmcdrrtnlstelem",
+              "scmcdrrtnlstelem-schemecdr"
+            ]
+          },
+          "['b']": {
+            "dictTag2ConceptMsg": {
+              "scmbindvartovarname-schemedefine": "7",
+              "scmbindvartovarname-schemeevalvar": "3",
+              "scmlstdsntneedouterparen-schemelistformat": "10",
+              "scmsingleitemnestedlstislst-schemelistfunction": "9"
+            },
+            "dictTag2KIMsg": {
+              "scmbindvartovarname": "25",
+              "scmlstdsntneedouterparen": "15",
+              "scmsingleitemnestedlstislst": "30"
+            },
+            "lstMisU": [
+              "scmbindvartovarname",
+              "scmbindvartovarname-schemedefine",
+              "scmbindvartovarname-schemeevalvar",
+              "scmlstdsntneedouterparen",
+              "scmlstdsntneedouterparen-schemelistformat",
+              "scmsingleitemnestedlstislst",
+              "scmsingleitemnestedlstislst-schemelistfunction"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {
+          "['(2 (1))']": [
+            [
+              "17",
+              "['(2 . (1))']"
+            ]
+          ],
+          "['(2 . (1))']": [
+            [
+              "17",
+              "['(2 (1))']"
+            ]
+          ],
+          "['(list 2 1)']": [
+            [
+              "17",
+              "['(list b)']"
+            ]
+          ],
+          "['(list b)']": [
+            [
+              "17",
+              "['(list 2 1)']"
+            ]
+          ]
+        }
+      },
+      "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nc\nscm> c\n(3 (2 1))\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n": {
+        "assessNum": "16",
+        "dictWA2DictInfo": {
+          "['(2 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmswapcarcdr-schemecar": "12",
+              "scmswapcarcdr-schemecdr": "4"
+            },
+            "dictTag2KIMsg": {
+              "scmswapcarcdr": "28"
+            },
+            "lstMisU": [
+              "scmswapcarcdr",
+              "scmswapcarcdr-schemecar",
+              "scmswapcarcdr-schemecdr"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nc\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n": {
+        "assessNum": "15",
+        "dictWA2DictInfo": {
+          "['(3 (2 . 1))']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesmallst-schemecons": "6"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesmallst": "13"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesmallst",
+              "scmconswithlstmakesmallst-schemecons"
+            ]
+          },
+          "['(3 (2 1)']": {
+            "dictTag2ConceptMsg": {
+              "correct": "2"
+            },
+            "dictTag2KIMsg": {
+              "correct": "2"
+            },
+            "lstMisU": [
+              "correct"
+            ]
+          },
+          "['(3 . (2 1))']": {
+            "dictTag2ConceptMsg": {
+              "scmlistfnmakesmallst-schemelistfunction": "9",
+              "scmlstdispnotfullyreduced-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlistfnmakesmallst": "20",
+              "scmlstdispnotfullyreduced": "16"
+            },
+            "lstMisU": [
+              "scmlistfnmakesmallst",
+              "scmlistfnmakesmallst-schemelistfunction",
+              "scmlstdispnotfullyreduced",
+              "scmlstdispnotfullyreduced-schemelistformat"
+            ]
+          },
+          "['(3 . 2 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmlistfnmakesmallst-schemelistfunction": "9"
+            },
+            "dictTag2KIMsg": {
+              "scmlistfnmakesmallst": "27"
+            },
+            "lstMisU": [
+              "scmlistfnmakesmallst",
+              "scmlistfnmakesmallst-schemelistfunction"
+            ]
+          },
+          "['(3 2 . 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesmallst-schemecons": "6",
+              "scmlistfnmakesmallst-schemelistfunction": "9"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesmallst": "13",
+              "scmlistfnmakesmallst": "27"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesmallst",
+              "scmconswithlstmakesmallst-schemecons",
+              "scmlistfnmakesmallst",
+              "scmlistfnmakesmallst-schemelistfunction"
+            ]
+          },
+          "['(3 2 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmnestedlstisflat-schemecons": "6",
+              "scmnestedlstisflat-schemelistfunction": "9",
+              "scmnestedlstisflat-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmnestedlstisflat": "19"
+            },
+            "lstMisU": [
+              "scmnestedlstisflat",
+              "scmnestedlstisflat-schemecons",
+              "scmnestedlstisflat-schemelistfunction",
+              "scmnestedlstisflat-schemequotedlist"
+            ]
+          },
+          "['(3 b)']": {
+            "dictTag2ConceptMsg": {
+              "scmbindvartovarname-schemedefine": "7",
+              "scmbindvartovarname-schemeevalvar": "3"
+            },
+            "dictTag2KIMsg": {
+              "scmbindvartovarname": "25"
+            },
+            "lstMisU": [
+              "scmbindvartovarname",
+              "scmbindvartovarname-schemedefine",
+              "scmbindvartovarname-schemeevalvar"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\nLOCKED_ANSWER\nscm> (define c (list 3 b))\nLOCKED_ANSWER\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n": {
+        "assessNum": "13",
+        "dictWA2DictInfo": {
+          "['(2 (1))']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesnestedlst-schemecons": "6",
+              "scmlstreductionmisapplied-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesnestedlst": "13",
+              "scmlstreductionmisapplied": "26"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesnestedlst",
+              "scmconswithlstmakesnestedlst-schemecons",
+              "scmlstreductionmisapplied",
+              "scmlstreductionmisapplied-schemelistformat"
+            ]
+          },
+          "['(2 . (1))']": {
+            "dictTag2ConceptMsg": {
+              "scmlstdispnotfullyreduced-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstdispnotfullyreduced": "16"
+            },
+            "lstMisU": [
+              "scmlstdispnotfullyreduced",
+              "scmlstdispnotfullyreduced-schemelistformat"
+            ]
+          },
+          "['(2 . 1)']": {
+            "dictTag2ConceptMsg": {
+              "scmconswithlstmakesmallst-schemecons": "6"
+            },
+            "dictTag2KIMsg": {
+              "scmconswithlstmakesmallst": "13"
+            },
+            "lstMisU": [
+              "scmconswithlstmakesmallst",
+              "scmconswithlstmakesmallst-schemecons"
+            ]
+          },
+          "['(2 . a)']": {
+            "dictTag2ConceptMsg": {
+              "scmbindvartovarname-schemedefine": "7",
+              "scmbindvartovarname-schemeevalvar": "3",
+              "scmconswithlstmakesmallst-schemecons": "6",
+              "scmlstreductionmisapplied-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmbindvartovarname": "25",
+              "scmconswithlstmakesmallst": "13",
+              "scmlstreductionmisapplied": "26"
+            },
+            "lstMisU": [
+              "scmbindvartovarname",
+              "scmbindvartovarname-schemedefine",
+              "scmbindvartovarname-schemeevalvar",
+              "scmconswithlstmakesmallst",
+              "scmconswithlstmakesmallst-schemecons",
+              "scmlstreductionmisapplied",
+              "scmlstreductionmisapplied-schemelistformat"
+            ]
+          },
+          "['(2 a)']": {
+            "dictTag2ConceptMsg": {
+              "scmbindvartovarname-schemedefine": "7",
+              "scmbindvartovarname-schemeevalvar": "3"
+            },
+            "dictTag2KIMsg": {
+              "scmbindvartovarname": "25"
+            },
+            "lstMisU": [
+              "scmbindvartovarname",
+              "scmbindvartovarname-schemedefine",
+              "scmbindvartovarname-schemeevalvar"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (define a '(1))\na\nscm> a\nLOCKED_ANSWER\nscm> (define b (cons 2 a))\nLOCKED_ANSWER\nscm> b\nLOCKED_ANSWER\nscm> (define c (list 3 b))\nLOCKED_ANSWER\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n": {
+        "assessNum": "11",
+        "dictWA2DictInfo": {
+          "['1']": {
+            "dictTag2ConceptMsg": {
+              "scmquotedlstnotrtnlst-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmquotedlstnotrtnlst": "21"
+            },
+            "lstMisU": [
+              "scmquotedlstnotrtnlst",
+              "scmquotedlstnotrtnlst-schemequotedlist"
+            ]
+          },
+          "['a']": {
+            "dictTag2ConceptMsg": {
+              "scmbindvartovarname-schemedefine": "7",
+              "scmbindvartovarname-schemeevalvar": "3"
+            },
+            "dictTag2KIMsg": {
+              "scmbindvartovarname": "24"
+            },
+            "lstMisU": [
+              "scmbindvartovarname",
+              "scmbindvartovarname-schemedefine",
+              "scmbindvartovarname-schemeevalvar"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (equal? '(1 . (2 . 3)) (cons 1 (cons 2 (cons 3 nil))))\nLOCKED_ANSWER\n": {
+        "assessNum": "6",
+        "dictWA2DictInfo": {
+          "['#f']": {
+            "dictTag2ConceptMsg": {
+              "correct": "2"
+            },
+            "dictTag2KIMsg": {
+              "correct": "2"
+            },
+            "lstMisU": [
+              "correct"
+            ]
+          },
+          "['false']": {
+            "dictTag2ConceptMsg": {
+              "correct": "2"
+            },
+            "dictTag2KIMsg": {
+              "correct": "2"
+            },
+            "lstMisU": [
+              "correct"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (equal? '(1 . (2 . 3)) (cons 1 (cons 2 3)))\nLOCKED_ANSWER\n": {
+        "assessNum": "7",
+        "dictWA2DictInfo": {},
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (equal? '(1 . (2 . 3)) (list 1 (cons 2 3)))\nLOCKED_ANSWER\n": {
+        "assessNum": "8",
+        "dictWA2DictInfo": {},
+        "dictWA2LstAssessNum_WA": {}
+      },
+      "scm> (list 1 (cons 2 3))\nLOCKED_ANSWER\n": {
+        "assessNum": "3",
+        "dictWA2DictInfo": {
+          "['(1 (2 . 3)']": {
+            "dictTag2ConceptMsg": {
+              "correct": "2"
+            },
+            "dictTag2KIMsg": {
+              "correct": "2"
+            },
+            "lstMisU": [
+              "correct"
+            ]
+          },
+          "['(1 (2 3))']": {
+            "dictTag2ConceptMsg": {
+              "scmconsrtnlstwhenshouldbemallst-schemecons": "6",
+              "scmconsrtnlstwhenshouldbemallst-schememalformedlist": "5",
+              "scmmallstislst-schememalformedlist": "5"
+            },
+            "dictTag2KIMsg": {
+              "scmconsrtnlstwhenshouldbemallst": "13",
+              "scmmallstislst": "19"
+            },
+            "lstMisU": [
+              "scmconsrtnlstwhenshouldbemallst",
+              "scmconsrtnlstwhenshouldbemallst-schemecons",
+              "scmconsrtnlstwhenshouldbemallst-schememalformedlist",
+              "scmmallstislst",
+              "scmmallstislst-schememalformedlist"
+            ]
+          },
+          "['(1 (2.3))']": {
+            "dictTag2ConceptMsg": {
+              "scmmallstdsntneedspaces-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmmallstdsntneedspaces": "14"
+            },
+            "lstMisU": [
+              "scmmallstdsntneedspaces",
+              "scmmallstdsntneedspaces-schemelistformat"
+            ]
+          },
+          "['(1 . 2 3)']": {
+            "dictTag2ConceptMsg": {
+              "scmlistfnmakesmallst-schemelistfunction": "9",
+              "scmnestedlstisflat-schemecons": "6",
+              "scmnestedlstisflat-schemelistfunction": "9",
+              "scmnestedlstisflat-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmlistfnmakesmallst": "20",
+              "scmnestedlstisflat": "19"
+            },
+            "lstMisU": [
+              "scmlistfnmakesmallst",
+              "scmlistfnmakesmallst-schemelistfunction",
+              "scmnestedlstisflat",
+              "scmnestedlstisflat-schemecons",
+              "scmnestedlstisflat-schemelistfunction",
+              "scmnestedlstisflat-schemequotedlist"
+            ]
+          },
+          "['(1 2 . 3)']": {
+            "dictTag2ConceptMsg": {
+              "scmnestedlstisflat-schemecons": "6",
+              "scmnestedlstisflat-schemelistfunction": "9",
+              "scmnestedlstisflat-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmnestedlstisflat": "19"
+            },
+            "lstMisU": [
+              "scmnestedlstisflat",
+              "scmnestedlstisflat-schemecons",
+              "scmnestedlstisflat-schemelistfunction",
+              "scmnestedlstisflat-schemequotedlist"
+            ]
+          },
+          "['(1 2 3)']": {
+            "dictTag2ConceptMsg": {
+              "scmnestedlstisflat-schemecons": "6",
+              "scmnestedlstisflat-schemelistfunction": "9",
+              "scmnestedlstisflat-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmnestedlstisflat": "19"
+            },
+            "lstMisU": [
+              "scmnestedlstisflat",
+              "scmnestedlstisflat-schemecons",
+              "scmnestedlstisflat-schemelistfunction",
+              "scmnestedlstisflat-schemequotedlist"
+            ]
+          },
+          "['(1 2.3)']": {
+            "dictTag2ConceptMsg": {
+              "scmmallstdsntneedspaces-schemelistformat": "10",
+              "scmnestedlstisflat-schemecons": "6",
+              "scmnestedlstisflat-schemelistfunction": "9",
+              "scmnestedlstisflat-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmmallstdsntneedspaces": "14",
+              "scmnestedlstisflat": "19"
+            },
+            "lstMisU": [
+              "scmmallstdsntneedspaces",
+              "scmmallstdsntneedspaces-schemelistformat",
+              "scmnestedlstisflat",
+              "scmnestedlstisflat-schemecons",
+              "scmnestedlstisflat-schemelistfunction",
+              "scmnestedlstisflat-schemequotedlist"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {
+          "['(1 . 2 . 3)']": [
+            [
+              "3",
+              "['(1 . 2 3)']"
+            ]
+          ],
+          "['(1 . 2 3)']": [
+            [
+              "3",
+              "['(1 . 2 . 3)']"
+            ]
+          ]
+        }
+      },
+      "scm> lst\nLOCKED_ANSWER\n": {
+        "assessNum": "20",
+        "dictWA2DictInfo": {
+          "['((1) (2 ((3 . 4) (5))))']": {
+            "dictTag2ConceptMsg": {
+              "scmlstisnestedlst-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstisnestedlst": "26"
+            },
+            "lstMisU": [
+              "scmlstisnestedlst",
+              "scmlstisnestedlst-schemelistformat"
+            ]
+          },
+          "['((1) (2 ((3 4) (5)))']": {
+            "dictTag2ConceptMsg": {
+              "scmlstisnestedlst-schemelistformat": "10",
+              "scmmallstislst-schememalformedlist": "5"
+            },
+            "dictTag2KIMsg": {
+              "scmlstisnestedlst": "26",
+              "scmmallstislst": "26"
+            },
+            "lstMisU": [
+              "scmlstisnestedlst",
+              "scmlstisnestedlst-schemelistformat",
+              "scmmallstislst",
+              "scmmallstislst-schememalformedlist"
+            ]
+          },
+          "['((1) (2 ((3 4) (5))))']": {
+            "dictTag2ConceptMsg": {
+              "scmlstisnestedlst-schemelistformat": "10",
+              "scmmallstislst-schememalformedlist": "5"
+            },
+            "dictTag2KIMsg": {
+              "scmlstisnestedlst": "26",
+              "scmmallstislst": "26"
+            },
+            "lstMisU": [
+              "scmlstisnestedlst",
+              "scmlstisnestedlst-schemelistformat",
+              "scmmallstislst",
+              "scmmallstislst-schememalformedlist"
+            ]
+          },
+          "['((1) (2 (3 . 4) 5))']": {
+            "dictTag2ConceptMsg": {
+              "scmlstisnestedlst-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstisnestedlst": "26"
+            },
+            "lstMisU": [
+              "scmlstisnestedlst",
+              "scmlstisnestedlst-schemelistformat"
+            ]
+          },
+          "['((1) 2 (3 . 4) (5))']": {
+            "dictTag2ConceptMsg": {
+              "scmlstisnestedlst-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmlstisnestedlst": "26"
+            },
+            "lstMisU": [
+              "scmlstisnestedlst",
+              "scmlstisnestedlst-schemelistformat"
+            ]
+          },
+          "['((1) 2 (3 4) 5)']": {
+            "dictTag2ConceptMsg": {
+              "scmmallstislst-schememalformedlist": "5"
+            },
+            "dictTag2KIMsg": {
+              "scmmallstislst": "26"
+            },
+            "lstMisU": [
+              "scmmallstislst",
+              "scmmallstislst-schememalformedlist"
+            ]
+          },
+          "['((1) 2 (3.4) 5)']": {
+            "dictTag2ConceptMsg": {
+              "scmmallstdsntneedspaces-schemelistformat": "10"
+            },
+            "dictTag2KIMsg": {
+              "scmmallstdsntneedspaces": "14"
+            },
+            "lstMisU": [
+              "scmmallstdsntneedspaces",
+              "scmmallstdsntneedspaces-schemelistformat"
+            ]
+          },
+          "['(1 2 (3 . 4) 5)']": {
+            "dictTag2ConceptMsg": {
+              "scmnestedlstisflat-schemecons": "6",
+              "scmnestedlstisflat-schemelistfunction": "9",
+              "scmnestedlstisflat-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmnestedlstisflat": "26"
+            },
+            "lstMisU": [
+              "scmnestedlstisflat",
+              "scmnestedlstisflat-schemecons",
+              "scmnestedlstisflat-schemelistfunction",
+              "scmnestedlstisflat-schemequotedlist"
+            ]
+          },
+          "['(1 2 (3 4) 5)']": {
+            "dictTag2ConceptMsg": {
+              "scmmallstislst-schememalformedlist": "5",
+              "scmnestedlstisflat-schemecons": "6",
+              "scmnestedlstisflat-schemelistfunction": "9",
+              "scmnestedlstisflat-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmmallstislst": "26",
+              "scmnestedlstisflat": "26"
+            },
+            "lstMisU": [
+              "scmmallstislst",
+              "scmmallstislst-schememalformedlist",
+              "scmnestedlstisflat",
+              "scmnestedlstisflat-schemecons",
+              "scmnestedlstisflat-schemelistfunction",
+              "scmnestedlstisflat-schemequotedlist"
+            ]
+          },
+          "['(1 2 3 . 4 5)']": {
+            "dictTag2ConceptMsg": {
+              "scmnestedlstisflat-schemecons": "6",
+              "scmnestedlstisflat-schemelistfunction": "9",
+              "scmnestedlstisflat-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmnestedlstisflat": "26"
+            },
+            "lstMisU": [
+              "scmnestedlstisflat",
+              "scmnestedlstisflat-schemecons",
+              "scmnestedlstisflat-schemelistfunction",
+              "scmnestedlstisflat-schemequotedlist"
+            ]
+          },
+          "['(1 2 3 4 5)']": {
+            "dictTag2ConceptMsg": {
+              "scmmallstislst-schememalformedlist": "5",
+              "scmnestedlstisflat-schemecons": "6",
+              "scmnestedlstisflat-schemelistfunction": "9",
+              "scmnestedlstisflat-schemequotedlist": "11"
+            },
+            "dictTag2KIMsg": {
+              "scmmallstislst": "26",
+              "scmnestedlstisflat": "26"
+            },
+            "lstMisU": [
+              "scmmallstislst",
+              "scmmallstislst-schememalformedlist",
+              "scmnestedlstisflat",
+              "scmnestedlstisflat-schemecons",
+              "scmnestedlstisflat-schemelistfunction",
+              "scmnestedlstisflat-schemequotedlist"
+            ]
+          },
+          "['(3 (2 1))']": {
+            "dictTag2ConceptMsg": {
+              "sloppynoreadinstructions-sloppy": "0"
+            },
+            "dictTag2KIMsg": {
+              "sloppynoreadinstructions": "34"
+            },
+            "lstMisU": [
+              "sloppynoreadinstructions",
+              "sloppynoreadinstructions-sloppy"
+            ]
+          },
+          "['lst']": {
+            "dictTag2ConceptMsg": {
+              "noevalexpr-evalexpr": "1",
+              "scmbindvartovarname-schemedefine": "7",
+              "scmbindvartovarname-schemeevalvar": "3"
+            },
+            "dictTag2KIMsg": {
+              "noevalexpr": "33",
+              "scmbindvartovarname": "24"
+            },
+            "lstMisU": [
+              "noevalexpr",
+              "noevalexpr-evalexpr",
+              "scmbindvartovarname",
+              "scmbindvartovarname-schemedefine",
+              "scmbindvartovarname-schemeevalvar"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {
+          "['(1 . 2 3 . 4 5)']": [
+            [
+              "20",
+              "['(1 2 3 . 4 5)']"
+            ]
+          ],
+          "['(1 2 3 . 4 5)']": [
+            [
+              "20",
+              "['(1 . 2 3 . 4 5)']"
+            ]
+          ],
+          "['(3 (2 1))']": [
+            [
+              "20",
+              "['(3 2 1)']"
+            ]
+          ],
+          "['(3 2 1)']": [
+            [
+              "20",
+              "['(3 (2 1))']"
+            ]
+          ]
+        }
+      }
+    },
+    "dictAssessNum2AssessId": {
+      "0": "scm> (cons 1 2)\nLOCKED_ANSWER\n",
+      "1": "scm> (cons 1 (cons 2 nil))\nLOCKED_ANSWER\n",
+      "10": "scm> (define a '(1))\nLOCKED_ANSWER\nscm> a\nLOCKED_ANSWER\nscm> (define b (cons 2 a))\nLOCKED_ANSWER\nscm> b\nLOCKED_ANSWER\nscm> (define c (list 3 b))\nLOCKED_ANSWER\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n",
+      "11": "scm> (define a '(1))\na\nscm> a\nLOCKED_ANSWER\nscm> (define b (cons 2 a))\nLOCKED_ANSWER\nscm> b\nLOCKED_ANSWER\nscm> (define c (list 3 b))\nLOCKED_ANSWER\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n",
+      "12": "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nLOCKED_ANSWER\nscm> b\nLOCKED_ANSWER\nscm> (define c (list 3 b))\nLOCKED_ANSWER\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n",
+      "13": "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\nLOCKED_ANSWER\nscm> (define c (list 3 b))\nLOCKED_ANSWER\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n",
+      "14": "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nLOCKED_ANSWER\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n",
+      "15": "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nc\nscm> c\nLOCKED_ANSWER\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n",
+      "16": "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nc\nscm> c\n(3 (2 1))\nscm> (car c)\nLOCKED_ANSWER\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n",
+      "17": "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nc\nscm> c\n(3 (2 1))\nscm> (car c)\n3\nscm> (cdr c)\nLOCKED_ANSWER\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n",
+      "18": "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nc\nscm> c\n(3 (2 1))\nscm> (car c)\n3\nscm> (cdr c)\n((2 1))\nscm> (car (car (cdr c)))\nLOCKED_ANSWER\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n",
+      "19": "scm> (define a '(1))\na\nscm> a\n(1)\nscm> (define b (cons 2 a))\nb\nscm> b\n(2 1)\nscm> (define c (list 3 b))\nc\nscm> c\n(3 (2 1))\nscm> (car c)\n3\nscm> (cdr c)\n((2 1))\nscm> (car (car (cdr c)))\n2\nscm> (cdr (car (cdr c)))\nLOCKED_ANSWER\n",
+      "2": "scm> (cdr (cons 1 (cons 2 nil)))\nLOCKED_ANSWER\n",
+      "20": "scm> lst\nLOCKED_ANSWER\n",
+      "3": "scm> (list 1 (cons 2 3))\nLOCKED_ANSWER\n",
+      "4": "scm> '(2 . 3)\nLOCKED_ANSWER\n",
+      "5": "scm> '(2 . (3))\nLOCKED_ANSWER\n",
+      "6": "scm> (equal? '(1 . (2 . 3)) (cons 1 (cons 2 (cons 3 nil))))\nLOCKED_ANSWER\n",
+      "7": "scm> (equal? '(1 . (2 . 3)) (cons 1 (cons 2 3)))\nLOCKED_ANSWER\n",
+      "8": "scm> (equal? '(1 . (2 . 3)) (list 1 (cons 2 3)))\nLOCKED_ANSWER\n",
+      "9": "scm> (cons 1 '(list 2 3))\nLOCKED_ANSWER\n"
+    },
+    "dictId2Msg": {
+      "0": "Try:\n1) Reading the code or instructions more carefully,\n2) Writing out the variable's values, or\n3) Drawing an environment diagram.",
+      "1": "An expression is a combination of values, variables, operators, and functions\nthat a programming language interprets and evaluates to the simplest value.\nExpression are evaluated upon hitting \"Enter\" or \"Return\". Primitive values\n(e.g. |1| or |\"hello\"|) evaluate to themselves, while expressions are evaluated\nbased on the values, variables, operators, and functions it is made up of.",
+      "10": "To display a list, surround each pair with |()| and separate its values with a\n|.| surrounded by spaces. For each |.| immediately followed by a |(|, remove the\n|.| and matching |()|. For example, |(cons 1 (cons (cons 2 3) (cons 4 ())))|\nbecomes |(1 . ((2 . 3) . (4 . ())))| and reduces to |(1 (2 . 3) 4)|.",
+      "11": "|quote| or |'| acts as shorthand to create a list with the list display syntax.\nAnything in the list becomes symbolic and is therefore not evaluated. For\nexample, |(quote (1 2 3))| creates |(1 2 3)| and |'(1 . 2)| creates |(1 . 2)|,\nwhile |'(cons 1 2)| creates |(cons 1 2)| where |cons| here is the symbol |cons|.",
+      "12": "|car| returns the first value of a pair from either a regular or malformed list.\nThis value can be of any type. For example, |(car '(1 2 3))| returns |1|,\n|(car '(1 . 2))| returns |1|, and |(car '((1 2) 3))| returns |(1 2)|.",
+      "13": "Remember how |cons| works. What does it do with its arguments and how should the\nresult be displayed?",
+      "14": "Is that a decimal or a malformed list?",
+      "15": "Is that a list? Scheme can't tell that it is.",
+      "16": "Is that how Scheme would display the list? Recall the rule for displaying pairs.",
+      "17": "Is that the second value of the pair? Is it a value or a list?",
+      "18": "Recall what |nil| represents. How is it displayed?",
+      "19": "Double check how that list was made and if this list is displayed correctly.",
+      "2": "Typo?",
+      "20": "Remember how |list| works. What does it do with its arguments and how should the\nresult be displayed?",
+      "21": "Remember what quoting does with lists. Double check the list structure and how\nto display it.",
+      "22": "Looks like there is a quote in there. What does that do?",
+      "23": "Remember what |define| returns.",
+      "24": "Hmm... What is the variable bound to?",
+      "25": "Hmm... When the list was made, what were the variables bound to?",
+      "26": "Double check the list structure and if this list is displayed correctly.",
+      "27": "Remember how |list| works. What does it do with its arguments?",
+      "28": "Remember the difference between |car| and |cdr|.",
+      "29": "Try drawing out the box and pointer plot. What is the variable pointing to? What\nwould |cdr| return?",
+      "3": "In Scheme, a variable is evaluated to the value it was assigned using |define|.\nIf it was not assigned prior to being evaluated, an error is raised.",
+      "30": "Try drawing out the box and pointer plot and double check the exact structure of\nthe answer.",
+      "31": "Hmm... That looks like code. Would the Scheme interpreter output code here?",
+      "32": "Follow the |car|'s and |cdr|'s more carefully. Is that the correct element in\nthe list?",
+      "33": "Can't the expression be evaluated more?",
+      "34": "Double check the instructions?",
+      "4": "|cdr| returns the second value of a pair. With a linked list, |cdr| returns a\npointer to the next pair but with a malformed list, |cdr| returns a value. For\nexample, |(cdr '(1 2 3))| returns |(2 3)| and |(cdr '(1 . 2))| returns |2|.",
+      "5": "A list is malformed if the second value of a pair is not another pair. A |.| is\nused to separate the two values of the pair. For example, |(cons 1 (cons 2 3))|\nevaluates to the malformed list |(1 (2 . 3))|.",
+      "6": "|cons| takes two arguments to form a pair, like a link in link lists. Also like\nlink lists, conventionally the second value of the pair is another pair. If the\nsecond value is not a list, a malformed list is created. For example:\nscm> (cons 1 (cons 2 ()))   +-------+  +-------+  |  scm> (cons 1 2)   +-------+\n(1 2)                       | 1 | x -->| 2 | \\ |  |  (1 . 2)           | 1 | 2 |\n                            +-------+  +-------+  |                    +-------+",
+      "7": "|define| has two formats: |define (PROC_NAME PARAMETERS) PROC_BODY| and\n|define VAR VAL|. The first creates a procedure called PROC_NAME that runs\nPROC_BODY using PARAMETERS. The second assigns VAL to the name VAR. When a\nprocedure or variable is defined, its name is displayed in the interpreter.",
+      "8": "The empty list in Scheme, |()| or |nil|, denotes the end of a list, like Python\nlink lists. |null?| returns whether a value is the empty list. The empty list is\nconsidered a list, but not a pair so using |car| or |cdr| on it causes an error.",
+      "9": "|list| takes zero or more arguments and returns a list with each argument as an\nelement in the list. For example:\nscm> (list 1 2 3)    +-------+  +-------+  +-------+\n(1 2 3)              | 1 | x -->| 2 | x -->| 3 | \\ |\n                     +-------+  +-------+  +-------+"
+    },
+    "dictTg2Func": {
+      "0": "none",
+      "1": "tag2ConceptMsg",
+      "2": "tag2KIMsg"
+    },
+    "wrongAnsThresh": 2
+  }
+}

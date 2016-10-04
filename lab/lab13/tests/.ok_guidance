@@ -1,0 +1,1132 @@
+{
+  "checksum": "ea6932de107cd4eb44890fbadb9441dc",
+  "db": {
+    "dictAssessId2Info": {
+      ">>> def generator():\n...     print(\"Starting here\")\n...     i = 0\n...     while i < 6:\n...         print(\"Before yield\")\n...         yield i\n...         print(\"After yield\")\n...         i += 1\n>>> g = generator()\n>>> g == iter(g)\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n": {
+        "assessNum": "0",
+        "dictWA2DictInfo": {
+          "[\"'Starting here'\"]": {
+            "dictTag2ConceptMsg": {
+              "geniterrunsfn-generatoriter": "5",
+              "prntstrwithquotes-printstring": "0"
+            },
+            "dictTag2KIMsg": {
+              "geniterrunsfn": "7",
+              "prntstrwithquotes": "10"
+            },
+            "lstMisU": [
+              "geniterrunsfn",
+              "geniterrunsfn-generatoriter",
+              "prntstrwithquotes",
+              "prntstrwithquotes-printstring"
+            ]
+          },
+          "['\"Before yield\"']": {
+            "dictTag2ConceptMsg": {
+              "geniterrunsfn-generatoriter": "5",
+              "prntstrwithquotes-printstring": "0",
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "geniterrunsfn": "7",
+              "prntstrwithquotes": "10",
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "geniterrunsfn",
+              "geniterrunsfn-generatoriter",
+              "prntstrwithquotes",
+              "prntstrwithquotes-printstring",
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['\"Starting here\"']": {
+            "dictTag2ConceptMsg": {
+              "geniterrunsfn-generatoriter": "5",
+              "prntstrwithquotes-printstring": "0"
+            },
+            "dictTag2KIMsg": {
+              "geniterrunsfn": "7",
+              "prntstrwithquotes": "10"
+            },
+            "lstMisU": [
+              "geniterrunsfn",
+              "geniterrunsfn-generatoriter",
+              "prntstrwithquotes",
+              "prntstrwithquotes-printstring"
+            ]
+          },
+          "['0']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3",
+              "geniterrunsfn-generatoriter": "5",
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8",
+              "geniterrunsfn": "7",
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals",
+              "geniterrunsfn",
+              "geniterrunsfn-generatoriter",
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['1']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3",
+              "geniterrunsfn-generatoriter": "5",
+              "outoforderyieldvsinc-generatoryield": "4",
+              "outoforderyieldvsinc-sloppy": "1",
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8",
+              "geniterrunsfn": "7",
+              "outoforderyieldvsinc": "11",
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals",
+              "geniterrunsfn",
+              "geniterrunsfn-generatoriter",
+              "outoforderyieldvsinc",
+              "outoforderyieldvsinc-generatoryield",
+              "outoforderyieldvsinc-sloppy",
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['2']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['3']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['4']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['5']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['6']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['<generator object ...>']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['Before yield']": {
+            "dictTag2ConceptMsg": {
+              "geniterrunsfn-generatoriter": "5",
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "geniterrunsfn": "7",
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "geniterrunsfn",
+              "geniterrunsfn-generatoriter",
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['False']": {
+            "dictTag2ConceptMsg": {
+              "implicitgeniterdsntrtnself-generatoriter": "5"
+            },
+            "dictTag2KIMsg": {
+              "implicitgeniterdsntrtnself": "7"
+            },
+            "lstMisU": [
+              "implicitgeniterdsntrtnself",
+              "implicitgeniterdsntrtnself-generatoriter"
+            ]
+          },
+          "['Function']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['Generator']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['None']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['Starting here']": {
+            "dictTag2ConceptMsg": {
+              "geniterrunsfn-generatoriter": "5"
+            },
+            "dictTag2KIMsg": {
+              "geniterrunsfn": "7"
+            },
+            "lstMisU": [
+              "geniterrunsfn",
+              "geniterrunsfn-generatoriter"
+            ]
+          },
+          "['function']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['g']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['generator']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['generator()']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          },
+          "['iterator']": {
+            "dictTag2ConceptMsg": {
+              "equalityrtnvalisnotbool-equals": "3"
+            },
+            "dictTag2KIMsg": {
+              "equalityrtnvalisnotbool": "8"
+            },
+            "lstMisU": [
+              "equalityrtnvalisnotbool",
+              "equalityrtnvalisnotbool-equals"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {
+          "[\"'After yield'\"]": [
+            [
+              "0",
+              "[\"'Starting here'\"]"
+            ]
+          ],
+          "[\"'Before yield'\"]": [
+            [
+              "0",
+              "[\"'Starting here'\"]"
+            ],
+            [
+              "0",
+              "['\"Before yield\"']"
+            ]
+          ],
+          "[\"'Starting here'\"]": [
+            [
+              "0",
+              "[\"'After yield'\"]"
+            ],
+            [
+              "0",
+              "[\"'Before yield'\"]"
+            ]
+          ],
+          "['\"After yield\"']": [
+            [
+              "0",
+              "['\"Before yield\"']"
+            ],
+            [
+              "0",
+              "['\"Starting here\"']"
+            ],
+            [
+              "0",
+              "['1']"
+            ]
+          ],
+          "['\"Before yield\"']": [
+            [
+              "0",
+              "[\"'Before yield'\"]"
+            ],
+            [
+              "0",
+              "['\"After yield\"']"
+            ]
+          ],
+          "['\"Starting here\"']": [
+            [
+              "0",
+              "['\"After yield\"']"
+            ]
+          ],
+          "['1']": [
+            [
+              "0",
+              "['\"After yield\"']"
+            ],
+            [
+              "0",
+              "['7']"
+            ]
+          ],
+          "['2']": [
+            [
+              "0",
+              "['7']"
+            ],
+            [
+              "0",
+              "['8']"
+            ],
+            [
+              "0",
+              "['9']"
+            ]
+          ],
+          "['3']": [
+            [
+              "0",
+              "['7']"
+            ],
+            [
+              "0",
+              "['8']"
+            ],
+            [
+              "0",
+              "['9']"
+            ]
+          ],
+          "['4']": [
+            [
+              "0",
+              "['7']"
+            ],
+            [
+              "0",
+              "['8']"
+            ],
+            [
+              "0",
+              "['9']"
+            ]
+          ],
+          "['5']": [
+            [
+              "0",
+              "['7']"
+            ],
+            [
+              "0",
+              "['8']"
+            ],
+            [
+              "0",
+              "['9']"
+            ]
+          ],
+          "['6']": [
+            [
+              "0",
+              "['7']"
+            ],
+            [
+              "0",
+              "['8']"
+            ],
+            [
+              "0",
+              "['9']"
+            ]
+          ],
+          "['7']": [
+            [
+              "0",
+              "['1']"
+            ],
+            [
+              "0",
+              "['2']"
+            ],
+            [
+              "0",
+              "['3']"
+            ],
+            [
+              "0",
+              "['4']"
+            ],
+            [
+              "0",
+              "['5']"
+            ],
+            [
+              "0",
+              "['6']"
+            ]
+          ],
+          "['8']": [
+            [
+              "0",
+              "['2']"
+            ],
+            [
+              "0",
+              "['3']"
+            ],
+            [
+              "0",
+              "['4']"
+            ],
+            [
+              "0",
+              "['5']"
+            ],
+            [
+              "0",
+              "['6']"
+            ]
+          ],
+          "['9']": [
+            [
+              "0",
+              "['2']"
+            ],
+            [
+              "0",
+              "['3']"
+            ],
+            [
+              "0",
+              "['4']"
+            ],
+            [
+              "0",
+              "['5']"
+            ],
+            [
+              "0",
+              "['6']"
+            ]
+          ],
+          "['<generator object ...>']": [
+            [
+              "0",
+              "['<generator object>']"
+            ],
+            [
+              "0",
+              "['<generator>']"
+            ]
+          ],
+          "['<generator object>']": [
+            [
+              "0",
+              "['<generator object ...>']"
+            ]
+          ],
+          "['<generator>']": [
+            [
+              "0",
+              "['<generator object ...>']"
+            ]
+          ],
+          "['Generator']": [
+            [
+              "0",
+              "['Iterator']"
+            ]
+          ],
+          "['Iterator']": [
+            [
+              "0",
+              "['Generator']"
+            ],
+            [
+              "0",
+              "['iterator']"
+            ]
+          ],
+          "['generator object']": [
+            [
+              "0",
+              "['generator']"
+            ]
+          ],
+          "['generator']": [
+            [
+              "0",
+              "['generator object']"
+            ]
+          ],
+          "['generator()']": [
+            [
+              "0",
+              "['iter(g)']"
+            ],
+            [
+              "0",
+              "['self']"
+            ]
+          ],
+          "['iter(g)']": [
+            [
+              "0",
+              "['generator()']"
+            ]
+          ],
+          "['iterable']": [
+            [
+              "0",
+              "['iterator']"
+            ]
+          ],
+          "['iterator']": [
+            [
+              "0",
+              "['Iterator']"
+            ],
+            [
+              "0",
+              "['iterable']"
+            ]
+          ],
+          "['self']": [
+            [
+              "0",
+              "['generator()']"
+            ]
+          ]
+        }
+      },
+      ">>> def generator():\n...     print(\"Starting here\")\n...     i = 0\n...     while i < 6:\n...         print(\"Before yield\")\n...         yield i\n...         print(\"After yield\")\n...         i += 1\n>>> g = generator()\n>>> g == iter(g)\nTrue\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n": {
+        "assessNum": "1",
+        "dictWA2DictInfo": {
+          "[\"'Before yield'\"]": {
+            "dictTag2ConceptMsg": {
+              "prntstrwithquotes-printstring": "0",
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "prntstrwithquotes": "10",
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "prntstrwithquotes",
+              "prntstrwithquotes-printstring",
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "[\"'Starting here'\"]": {
+            "dictTag2ConceptMsg": {
+              "prntstrwithquotes-printstring": "0"
+            },
+            "dictTag2KIMsg": {
+              "prntstrwithquotes": "10"
+            },
+            "lstMisU": [
+              "prntstrwithquotes",
+              "prntstrwithquotes-printstring"
+            ]
+          },
+          "['\"Before yield\"']": {
+            "dictTag2ConceptMsg": {
+              "prntstrwithquotes-printstring": "0",
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "prntstrwithquotes": "10",
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "prntstrwithquotes",
+              "prntstrwithquotes-printstring",
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['\"Starting here\"']": {
+            "dictTag2ConceptMsg": {
+              "prntstrwithquotes-printstring": "0"
+            },
+            "dictTag2KIMsg": {
+              "prntstrwithquotes": "10"
+            },
+            "lstMisU": [
+              "prntstrwithquotes",
+              "prntstrwithquotes-printstring"
+            ]
+          },
+          "['0']": {
+            "dictTag2ConceptMsg": {
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['1']": {
+            "dictTag2ConceptMsg": {
+              "outoforderyieldvsinc-generatoryield": "4",
+              "outoforderyieldvsinc-sloppy": "1",
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "outoforderyieldvsinc": "11",
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "outoforderyieldvsinc",
+              "outoforderyieldvsinc-generatoryield",
+              "outoforderyieldvsinc-sloppy",
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['After yield']": {
+            "dictTag2ConceptMsg": {
+              "sloppyskipprnt-sloppy": "1",
+              "yielddsntrtnvalandhalt-generatoryield": "4"
+            },
+            "dictTag2KIMsg": {
+              "sloppyskipprnt": "9",
+              "yielddsntrtnvalandhalt": "13"
+            },
+            "lstMisU": [
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy",
+              "yielddsntrtnvalandhalt",
+              "yielddsntrtnvalandhalt-generatoryield"
+            ]
+          },
+          "['Before yield']": {
+            "dictTag2ConceptMsg": {
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['Starting Here']": {
+            "dictTag2ConceptMsg": {
+              "correct": "2"
+            },
+            "dictTag2KIMsg": {
+              "correct": "2"
+            },
+            "lstMisU": [
+              "correct"
+            ]
+          },
+          "['Starting here', '0']": {
+            "dictTag2ConceptMsg": {
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['Starting here', 'Before yield', '1']": {
+            "dictTag2ConceptMsg": {
+              "outoforderyieldvsinc-generatoryield": "4",
+              "outoforderyieldvsinc-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "outoforderyieldvsinc": "11"
+            },
+            "lstMisU": [
+              "outoforderyieldvsinc",
+              "outoforderyieldvsinc-generatoryield",
+              "outoforderyieldvsinc-sloppy"
+            ]
+          },
+          "['Starting here', 'Before yield', 'After yield']": {
+            "dictTag2ConceptMsg": {
+              "sloppyskipline-sloppy": "1",
+              "yielddsntrtnvalandhalt-generatoryield": "4"
+            },
+            "dictTag2KIMsg": {
+              "sloppyskipline": "12",
+              "yielddsntrtnvalandhalt": "13"
+            },
+            "lstMisU": [
+              "sloppyskipline",
+              "sloppyskipline-sloppy",
+              "yielddsntrtnvalandhalt",
+              "yielddsntrtnvalandhalt-generatoryield"
+            ]
+          },
+          "['Starting here', 'Before yield', 'Before yield']": {
+            "dictTag2ConceptMsg": {
+              "yieldiscontnotrtn-generatoryield": "4"
+            },
+            "dictTag2KIMsg": {
+              "yieldiscontnotrtn": "13"
+            },
+            "lstMisU": [
+              "yieldiscontnotrtn",
+              "yieldiscontnotrtn-generatoryield"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {
+          "['\"After yield\"']": [
+            [
+              "1",
+              "['After yield']"
+            ]
+          ],
+          "['1']": [
+            [
+              "1",
+              "['4']"
+            ]
+          ],
+          "['4']": [
+            [
+              "1",
+              "['1']"
+            ]
+          ],
+          "['After yield']": [
+            [
+              "1",
+              "['\"After yield\"']"
+            ]
+          ],
+          "['Starting here', '0']": [
+            [
+              "1",
+              "['Starting here', '1']"
+            ]
+          ],
+          "['Starting here', '1']": [
+            [
+              "1",
+              "['Starting here', '0']"
+            ]
+          ],
+          "['Starting here', 'Before yield', 'After yield']": [
+            [
+              "1",
+              "['Starting here', 'Before yield', 'Starting here']"
+            ]
+          ],
+          "['Starting here', 'Before yield', 'Before yield']": [
+            [
+              "1",
+              "['Starting here', 'Before yield', 'Starting here']"
+            ]
+          ],
+          "['Starting here', 'Before yield', 'Starting here']": [
+            [
+              "1",
+              "['Starting here', 'Before yield', 'After yield']"
+            ],
+            [
+              "1",
+              "['Starting here', 'Before yield', 'Before yield']"
+            ]
+          ]
+        }
+      },
+      ">>> def generator():\n...     print(\"Starting here\")\n...     i = 0\n...     while i < 6:\n...         print(\"Before yield\")\n...         yield i\n...         print(\"After yield\")\n...         i += 1\n>>> g = generator()\n>>> g == iter(g)\nTrue\n>>> next(g)\nStarting here\nBefore yield\n0\n>>> next(g)\nAfter yield\nBefore yield\n1\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n": {
+        "assessNum": "3",
+        "dictWA2DictInfo": {
+          "['Before yield']": {
+            "dictTag2ConceptMsg": {
+              "sloppyskipprnt-sloppy": "1",
+              "yieldrestartsatloopstart-generatoryield": "4"
+            },
+            "dictTag2KIMsg": {
+              "sloppyskipprnt": "9",
+              "yieldrestartsatloopstart": "14"
+            },
+            "lstMisU": [
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy",
+              "yieldrestartsatloopstart",
+              "yieldrestartsatloopstart-generatoryield"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {
+          "['Before yield']": [
+            [
+              "3",
+              "['Starting here']"
+            ]
+          ],
+          "['Starting here']": [
+            [
+              "3",
+              "['Before yield']"
+            ]
+          ]
+        }
+      },
+      ">>> def generator():\n...     print(\"Starting here\")\n...     i = 0\n...     while i < 6:\n...         print(\"Before yield\")\n...         yield i\n...         print(\"After yield\")\n...         i += 1\n>>> g = generator()\n>>> g == iter(g)\nTrue\n>>> next(g)\nStarting here\nBefore yield\n0\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n": {
+        "assessNum": "2",
+        "dictWA2DictInfo": {
+          "['0']": {
+            "dictTag2ConceptMsg": {
+              "gennxtrtnsfirstval-generatornext": "6",
+              "gennxtrtnsfirstval-sloppy": "1",
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "gennxtrtnsfirstval": "16",
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "gennxtrtnsfirstval",
+              "gennxtrtnsfirstval-generatornext",
+              "gennxtrtnsfirstval-sloppy",
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['1']": {
+            "dictTag2ConceptMsg": {
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['2']": {
+            "dictTag2ConceptMsg": {
+              "outoforderyieldvsinc-generatoryield": "4",
+              "outoforderyieldvsinc-sloppy": "1",
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "outoforderyieldvsinc": "11",
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "outoforderyieldvsinc",
+              "outoforderyieldvsinc-generatoryield",
+              "outoforderyieldvsinc-sloppy",
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['After yield', '0']": {
+            "dictTag2ConceptMsg": {
+              "gennxtrtnsfirstval-generatornext": "6",
+              "gennxtrtnsfirstval-sloppy": "1",
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "gennxtrtnsfirstval": "16",
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "gennxtrtnsfirstval",
+              "gennxtrtnsfirstval-generatornext",
+              "gennxtrtnsfirstval-sloppy",
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['After yield', '1']": {
+            "dictTag2ConceptMsg": {
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['After yield', '2']": {
+            "dictTag2ConceptMsg": {
+              "outoforderyieldvsinc-generatoryield": "4",
+              "outoforderyieldvsinc-sloppy": "1",
+              "sloppyinc-sloppy": "1",
+              "sloppyskipprnt-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "outoforderyieldvsinc": "11",
+              "sloppyinc": "17",
+              "sloppyskipprnt": "9"
+            },
+            "lstMisU": [
+              "outoforderyieldvsinc",
+              "outoforderyieldvsinc-generatoryield",
+              "outoforderyieldvsinc-sloppy",
+              "sloppyinc",
+              "sloppyinc-sloppy",
+              "sloppyskipprnt",
+              "sloppyskipprnt-sloppy"
+            ]
+          },
+          "['After yield', 'Before yield', '2']": {
+            "dictTag2ConceptMsg": {
+              "outoforderyieldvsinc-generatoryield": "4",
+              "outoforderyieldvsinc-sloppy": "1"
+            },
+            "dictTag2KIMsg": {
+              "outoforderyieldvsinc": "11"
+            },
+            "lstMisU": [
+              "outoforderyieldvsinc",
+              "outoforderyieldvsinc-generatoryield",
+              "outoforderyieldvsinc-sloppy"
+            ]
+          },
+          "['After yield', 'Starting here']": {
+            "dictTag2ConceptMsg": {
+              "genlooprestartsatfnstart-generatoryield": "4"
+            },
+            "dictTag2KIMsg": {
+              "genlooprestartsatfnstart": "15"
+            },
+            "lstMisU": [
+              "genlooprestartsatfnstart",
+              "genlooprestartsatfnstart-generatoryield"
+            ]
+          },
+          "['Before yield']": {
+            "dictTag2ConceptMsg": {
+              "yieldrestartsatloopstart-generatoryield": "4"
+            },
+            "dictTag2KIMsg": {
+              "yieldrestartsatloopstart": "14"
+            },
+            "lstMisU": [
+              "yieldrestartsatloopstart",
+              "yieldrestartsatloopstart-generatoryield"
+            ]
+          },
+          "['Starting here']": {
+            "dictTag2ConceptMsg": {
+              "gensubseqnxtactslikefirstnxt-generatornext": "6"
+            },
+            "dictTag2KIMsg": {
+              "gensubseqnxtactslikefirstnxt": "14"
+            },
+            "lstMisU": [
+              "gensubseqnxtactslikefirstnxt",
+              "gensubseqnxtactslikefirstnxt-generatornext"
+            ]
+          }
+        },
+        "dictWA2LstAssessNum_WA": {
+          "['After yield', '0']": [
+            [
+              "2",
+              "['After yield', '3']"
+            ],
+            [
+              "2",
+              "['After yield', '6']"
+            ],
+            [
+              "2",
+              "['After yield', 'True']"
+            ]
+          ],
+          "['After yield', '2']": [
+            [
+              "2",
+              "['After yield', '3']"
+            ],
+            [
+              "2",
+              "['After yield', '6']"
+            ]
+          ],
+          "['After yield', '3']": [
+            [
+              "2",
+              "['After yield', '0']"
+            ],
+            [
+              "2",
+              "['After yield', '2']"
+            ]
+          ],
+          "['After yield', '6']": [
+            [
+              "2",
+              "['After yield', '0']"
+            ],
+            [
+              "2",
+              "['After yield', '2']"
+            ]
+          ],
+          "['After yield', 'True']": [
+            [
+              "2",
+              "['After yield', '0']"
+            ]
+          ]
+        }
+      }
+    },
+    "dictAssessNum2AssessId": {
+      "0": ">>> def generator():\n...     print(\"Starting here\")\n...     i = 0\n...     while i < 6:\n...         print(\"Before yield\")\n...         yield i\n...         print(\"After yield\")\n...         i += 1\n>>> g = generator()\n>>> g == iter(g)\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n",
+      "1": ">>> def generator():\n...     print(\"Starting here\")\n...     i = 0\n...     while i < 6:\n...         print(\"Before yield\")\n...         yield i\n...         print(\"After yield\")\n...         i += 1\n>>> g = generator()\n>>> g == iter(g)\nTrue\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n",
+      "2": ">>> def generator():\n...     print(\"Starting here\")\n...     i = 0\n...     while i < 6:\n...         print(\"Before yield\")\n...         yield i\n...         print(\"After yield\")\n...         i += 1\n>>> g = generator()\n>>> g == iter(g)\nTrue\n>>> next(g)\nStarting here\nBefore yield\n0\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n",
+      "3": ">>> def generator():\n...     print(\"Starting here\")\n...     i = 0\n...     while i < 6:\n...         print(\"Before yield\")\n...         yield i\n...         print(\"After yield\")\n...         i += 1\n>>> g = generator()\n>>> g == iter(g)\nTrue\n>>> next(g)\nStarting here\nBefore yield\n0\n>>> next(g)\nAfter yield\nBefore yield\n1\n>>> next(g)\nLOCKED_ANSWER\nLOCKED_ANSWER\nLOCKED_ANSWER\n"
+    },
+    "dictId2Msg": {
+      "0": "|print()| takes its arguments' values and displays them separated by spaces.\nNote that a string's value is the text between the quotes, thus when printing\nthe quotes are not displayed. For example, printing the string \"Hello World\"\nwill result in the interpreter displaying Hello World (no quotes).",
+      "1": "Try:\n1) Reading the code or instructions more carefully,\n2) Writing out the variable's values, or\n3) Drawing an environment diagram.",
+      "10": "Is this printing or returning the string?",
+      "11": "Look closely at when the code increments versus yields in the generator.",
+      "12": "Hmm... Did you miss a line of code?",
+      "13": "What happened to the |yield|? Remember what Python does with |yield|.",
+      "14": "This is a subsequent call to |next|, so where should Python continue from in the\ngenerator?",
+      "15": "Would Python go to the top of the function when it hits the end of a loop?",
+      "16": "Double check the generator's state at this point?",
+      "17": "Look more closely at the variable's initial value and how it is being changed.",
+      "2": "Typo?",
+      "3": "In Python, we use |==| to compare the equality of two values. For example if\n|foo = 0|, |foo == 0| checks to see if |foo| has the value |0| which would\nresult in a boolean evaluation.",
+      "4": "A generator is a function that uses |yield|. Upon reaching a |yield| during an \niteration, Python returns the evaluation of the statement and stores the state \nof the current frame for when the generator needs to return the next value.",
+      "5": "Like all iterators, generator objects have an |__iter__| method. This implicit\nmethod always returns the current generator, a.k.a. |self|.",
+      "6": "A generator remembers its environment frame and its previous location. The\ninitial values are an empty frame and the \"previous location\" is the function\nbeginning. When |next| is called, it loads the saved frame, starts evaluating\nfrom its previous location, and runs until it hits the next |yield|.",
+      "7": "What does a generator object's |__iter__| function do?",
+      "8": "What type does an |==| return?",
+      "9": "Hmm... Missed a |print()|?"
+    },
+    "dictTg2Func": {
+      "0": "none",
+      "1": "tag2ConceptMsg",
+      "2": "tag2KIMsg"
+    },
+    "wrongAnsThresh": 2
+  }
+}
