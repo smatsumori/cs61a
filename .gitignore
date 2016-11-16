@@ -1,0 +1,10 @@
+## swapfiles or editor files
+*.swp
+*.pyc
+*.ipynb
+
+## pdf
+*.pdf
+
+## zip
+*.zip
